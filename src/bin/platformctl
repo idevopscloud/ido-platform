@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python /opt/ido/platform/bin/platformctl.pyc $@

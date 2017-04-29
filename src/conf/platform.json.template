@@ -1,0 +1,43 @@
+{
+    "host": "10.26.155.221",
+    "master_host": "10.26.155.221",
+    "public_address": "47.89.48.254",
+    "data_dir": "/var/lib/ido",
+    "mysql_host": "10.26.155.221",
+    "mysql_port": 3306,
+    "mysql_user": "root",
+    "mysql_password": "idevops!@#.com",
+    "service_port_min": 45000,
+    "service_port_max": 46000,
+    "components": {
+        "redis": {
+            "port": 51001
+        },
+        "account": {
+            "port": 51002,
+            "db_name": "idevops_account"
+        },
+        "core": {
+            "db_name": "idevops_core",
+            "port": 51003
+        },
+        "application": {
+            "port": 51004,
+            "db_name": "idevops_app"
+        },
+        "web": {
+            "port": 51005
+        },
+        "registry": {
+            "port": 51006,
+            "db_name": "idevops_registry"
+        },
+        "jenkins": {
+            "port": 28080
+        },
+        "cdapi": {
+            "port": 23006
+        }
+    }
+}
+
